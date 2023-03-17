@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter" serif;
+  font-weight: 500;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(6, 115, 79);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  color: goldenrod;
+  margin: 2rem auto;
+}
+
+p {
+  font-family: "Source Sans Pro", serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #f7f7f4;
+  margin: 1rem auto;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+.start-btn,
+.card-btn {
+  font-weight: bold;
+  width: 150px;
+  border: none;
+  outline: none;
+  color: #016f32;
+  padding: 5px 0px;
+  border-radius: 2px;
+  margin: 0.5rem auto;
+  background: goldenrod;
+}
